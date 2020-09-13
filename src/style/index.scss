@@ -1,3 +1,37 @@
 @import "variables";
 @import "mixins";
 @import "reboot";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+  border-bottom: 1px solid $border-color;
+
+  .logo h1 {
+    font-size: 40px;
+  }
+
+  .sign {
+    display: flex;
+    align-items: center;
+    width: 10%;
+  }
+
+  .sign-in {
+    border: 1px solid $primary-color;
+    background-color: $body-bg;
+    color: $primary-color;
+    width: 40%;
+    margin: 0 5%;
+    border-radius: 20px;
+  }
+
+  .sign-up {
+    border: 1px solid $primary-color;
+    background-color: $primary-color;
+    color: $white;
+    width: 40%;
+    border-radius: 20px;
+  }
+}
