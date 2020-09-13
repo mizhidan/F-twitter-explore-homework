@@ -35,3 +35,50 @@
     border-radius: 20px;
   }
 }
+
+main {
+  margin: 10% 37%;
+
+  .login-box {
+    padding: 5%;
+    border: 1px solid $border-color;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+
+  .input-box {
+    margin-bottom: 5%;
+
+    input {
+      width: 100%;
+      background-color: $body-bg;
+      border: none;
+      border-bottom: 1px solid $border-color;
+      outline: none;
+    }
+  }
+
+  a {
+    margin-bottom: 5%;
+  }
+
+  .login-sign {
+    text-align: center;
+    .sign-in {
+      border: 1px solid $primary-color;
+      background-color: $body-bg;
+      color: $primary-color;
+      width: 100%;
+      border-radius: 20px;
+    }
+
+    .sign-up {
+      border: 1px solid $primary-color;
+      background-color: $primary-color;
+      color: $white;
+      width: 100%;
+      border-radius: 20px;
+    }
+  }
+}

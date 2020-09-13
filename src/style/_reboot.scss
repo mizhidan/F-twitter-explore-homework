@@ -26,11 +26,13 @@ ol {
 }
 
 a {
-  color: $link-color;
+  color: $primary-color;
 
   &:hover {
     color: $link-hover-color;
   }
+
+  text-decoration: none;
 }
 
 button {
