@@ -1,7 +1,7 @@
 @import "variables";
 @import "mixins";
 @import "reboot";
-
+//TODO feedback: 所有的css都放到这一个文件里面了，可以抽取出_header.scss和_main.scss文件，这就是SASS的其中一个功能：partial
 .header {
   display: flex;
   justify-content: space-between;
@@ -65,6 +65,7 @@ main {
 
   .login-sign {
     text-align: center;
+    //TODO feedback .sign-in和.sign-up这两块的代码很想，其实就可以抽取出一个mixin
     .sign-in {
       border: 1px solid $primary-color;
       background-color: $body-bg;
